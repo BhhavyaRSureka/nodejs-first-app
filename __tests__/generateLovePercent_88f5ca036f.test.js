@@ -4,7 +4,7 @@
 
 
 // ********RoostGPT********
-const { generateLovePercent } = require('./features');
+const { generateLovePercent } = require('../features');
 
 describe('Test the generateLovePercent function', () => {
 
