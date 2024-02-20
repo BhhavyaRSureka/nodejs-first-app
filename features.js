@@ -1,3 +1,5 @@
-export const generateLovePercent = () => {
+const generateLovePercent = () => {
   return `${~~(Math.random() * 100)}%`;
 };
+
+module.exports = { generateLovePercent };
